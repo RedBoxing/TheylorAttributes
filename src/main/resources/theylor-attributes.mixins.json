@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.redboxing.theylor.attributes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "net.minecraft.block.MixinAbstractBlocks",
+    "net.minecraft.entity.IMixinEntity",
+    "net.minecraft.entity.IMixinLivingEntity",
+    "net.minecraft.entity.MixinLivingEntity",
+    "net.minecraft.entity.boss.dragon.IMixinEnderDragonEntity",
+    "net.minecraft.entity.mob.MixinEndermanEntity",
+    "net.minecraft.entity.mob.MixinHoglinBrain",
+    "net.minecraft.entity.mob.MixinMobEntity",
+    "net.minecraft.entity.mob.MixinPiglinBrain",
+    "net.minecraft.entity.mob.MixinPiglinBruteBrain",
+    "net.minecraft.entity.player.MixinPlayerEntity",
+    "net.minecraft.item.MixinBlockItem",
+    "net.minecraft.item.MixinItemStack",
+    "net.minecraft.server.MixinMinecraftServer",
+    "net.minecraft.server.network.MixinServerPlayerEntity",
+    "net.minecraft.server.network.MixinServerPlayerInteractionManager"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

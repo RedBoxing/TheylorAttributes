@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "theylor-attributes",
+  "version": "${version}",
+  "name": "Theylor Attributes",
+  "description": "Theylor SMP's attributes mod",
+  "authors": [
+    "RedBoxing"
+  ],
+  "contact": {
+    "website": "https://redboxing.fr"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "fr.redboxing.theylor.attributes.TheylorAttributes"
+    ]
+  },
+  "mixins": [
+    "theylor-attributes.mixins.json"
+  ],
+  "accessWidener" : "theylor-attributes.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
